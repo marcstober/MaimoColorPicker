@@ -1,7 +1,7 @@
 import turtle
 import colorsys
 
-STEPS = 6
+STEPS = 16
 SIZE = 20
 
 # copy this function for now
