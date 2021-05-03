@@ -15,7 +15,9 @@ offset = STEPS * SIZE / 2
 
 for i in range(STEPS): # end of loop condition
   for j in range(STEPS):
+    trtl.penup()
     trtl.setpos(i * SIZE - offset, j * SIZE - offset)
+    trtl.pendown()
     trtl.color(get_rgb_color(i, j))
     trtl.dot(SIZE)
 
